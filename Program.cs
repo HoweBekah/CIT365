@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HoweMathQuiz
+namespace MegaDesk_BekahHowe
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace HoweMathQuiz
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainMenu());
         }
     }
 }
